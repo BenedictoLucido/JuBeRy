@@ -1,17 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'; // Import Routes and Route
 import App from './App';
-import Dashboard from './Dashboard/Dashboard';
+import Dashboard from './Dashboard/Dashboard'; // Import the Dashboard component
+import Products from './Products'; // Import Products component (Make sure it's in the correct path)
 import reportWebVitals from './reportWebVitals';
 
+// Create root element and render app with routes
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <App />
-      <Dashboard />
+      <Routes>
+        {/* Define the routes and the components for each path */}
+        <Route path="/" element={<App />} />
+        <Route path="/products" element={<Products />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+      </Routes>
     </BrowserRouter>
   </React.StrictMode>
 );
