@@ -17,8 +17,8 @@ function Dashboard() {
           <div className="landingPageHeader">
     
             <div className="titleContainer">
-              <div className="title"> {/* Title */}
-                Lorem Ispum
+              <div className="title mt-5"> {/* Title */}
+                JU BE RY Asset Movement
               </div>
     
               <div className="body"> {/* Body */}
@@ -37,18 +37,6 @@ function Dashboard() {
             <div className="navBox boxOne">
               <div className="title">
                 Add New Asset
-              </div>
-            </div>
-    
-            <div className="navBox boxTwo">
-              <div className="title">
-                Update Asset
-              </div>
-            </div>
-    
-            <div className="navBox boxThree">
-              <div className="title">
-                Preview Asset
               </div>
             </div>
     

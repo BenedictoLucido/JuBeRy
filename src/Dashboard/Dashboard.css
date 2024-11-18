@@ -115,6 +115,8 @@ body{
     width: 8em;
     height: 8em;
     margin: 1em;
+    margin-left: 4em;
+    margin-right: 4em;
   
     border: 2px solid black;
     border-radius: 25px;
