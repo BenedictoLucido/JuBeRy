@@ -1,15 +1,19 @@
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './Dashboard.css';
 
 function Dashboard() {
+    const navigate = useNavigate();
+
+    const goToAvailableDevices = () => {
+        navigate('/AvailableDevices');
+    };
+
     return (
         <div className="landingPage">
     
           {/* Main Man Header */}
           <div className="landingPageMainHeader">
-    
-            <div className="mainHeaderNavigation">
-               
-            </div>
     
           </div>
     
@@ -34,15 +38,15 @@ function Dashboard() {
           {/* Anything Body*/}
           <div className="landingPageBody">
     
-            <div className="navBox boxOne">
+            <div className="navBox boxOne" onClick={goToAvailableDevices}>
               <div className="title">
-                Add New Asset
+                    Available Devices
               </div>
             </div>
     
-            <div className="navBox boxThree">
+            <div className="navBox boxTwo" onClick={goToAvailableDevices}>
               <div className="title">
-                Update Asset
+                Update Devices
               </div>
             </div>
     
