@@ -7,7 +7,7 @@ function App() {
   const navigate = useNavigate();
 
   const goToProducts = () => {
-    navigate('/products');
+    navigate('/Dashboard');
   };
 
   return (
