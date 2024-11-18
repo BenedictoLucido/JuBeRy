@@ -17,7 +17,7 @@ function Dashboard() {
           <div className="landingPageHeader">
     
             <div className="titleContainer">
-              <div className="title mt-5"> {/* Title */}
+              <div className="title mt-7"> {/* Title */}
                 JU BE RY Asset Movement
               </div>
     
