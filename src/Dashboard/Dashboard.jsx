@@ -22,7 +22,7 @@ function Dashboard() {
     
             <div className="titleContainer">
               <div className="title mt-7"> {/* Title */}
-                JU BE RY Asset Movement
+                JU BE RY <br /> Asset Movement
               </div>
     
               <div className="body"> {/* Body */}
