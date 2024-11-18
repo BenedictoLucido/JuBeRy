@@ -1,6 +1,15 @@
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
+
 import './App.css';
 
 function App() {
+  const navigate = useNavigate();
+
+  const goToDashboard = () => {
+    navigate('/Dashboard');
+  };
+
   return (
     <div className="App">
       <header className="App-header">
@@ -21,6 +30,9 @@ function App() {
             Learn React
           </a>
         </p>
+        <button onClick={goToDashboard} className="navigate-button">
+          Go to Dashboard
+        </button>
       </header>
     </div>
   );
