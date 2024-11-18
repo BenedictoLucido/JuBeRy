@@ -3,7 +3,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // Import necessary components
 import App from './App';
-import Products from './Products'; // Import Products component
+import Products from './pages/Products'; // Import Products component
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 

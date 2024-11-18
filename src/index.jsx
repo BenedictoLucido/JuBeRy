@@ -4,7 +4,7 @@ import './index.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'; // Import Routes and Route
 import App from './App';
 import Dashboard from './Dashboard/Dashboard'; // Import the Dashboard component
-import Products from './Products'; // Import Products component (Make sure it's in the correct path)
+import Products from './pages/Products'; // Import Products component (Make sure it's in the correct path)
 import reportWebVitals from './reportWebVitals';
 
 // Create root element and render app with routes
